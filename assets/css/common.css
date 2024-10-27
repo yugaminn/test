@@ -1,0 +1,88 @@
+html {
+  visibility: hidden;
+}
+
+html.wf-active {
+  visibility: visible;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
+
+body {
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  color: #3e3a39;
+}
+
+h1 {
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  font-size: 28px;
+}
+
+h2,
+h3,
+h4 {
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+ul,
+ol {
+  display: block;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+ol {
+  list-style: none;
+}
+li {
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+}
+
+small {
+  font-size: 12px;
+}
+
+/* GrobalCSS */
+/* セクションコンテント */
+.g_section-content {
+  padding: 1rem 0rem 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .g_section-content {
+    padding: 1rem 2rem 2rem;
+  }
+}
+
+/* フレックスボックス */
+.g_flex-box > div {
+  padding: 0rem 0;
+}
+@media screen and (min-width: 1024px) {
+  .g_flex-box {
+    display: flex;
+  }
+
+  .g_flex-box > div {
+    padding: 0.5rem 1rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .g_background_himo {
+    background: none;
+  }
+}

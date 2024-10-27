@@ -1,0 +1,21 @@
+.loader-background {
+  display: block;
+  z-index: 999;
+  position: fixed;
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+
+.loader-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-container .logo {
+  max-width: 320px;
+  width: 100%;
+}
